@@ -1,2 +1,2 @@
 # cat-adoption
-<a src="home.html"> Go to home page! </a>
+<a href="home.html"> Go to home page! </a>
