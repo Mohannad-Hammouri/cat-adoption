@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Adopt cat </title>
+		<script type="text/javascript" src="adopt-cat.js"></script>
+		<link rel="stylesheet" type="text/css" href="adopt-cat.css"/>
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li> <a href="home.html">Home</a> </li> 
+	  			<li> <a href="Adopt-cat.html" class="active">Adopt Cat</a> </li>
+	  		</ul>
+		</nav>
+
+		<h3>Adopt Cat</h3>
+		<form method="post">	
+			Name:<br>
+			<input type="text" name="name" id="name" required /><br>
+			Breed:<br>
+			<input type="text" name="breed" id="breed" required /><br>
+			Age:<br>
+			<input type="number" name="age" id="age" required /><br>
+			Color:<br>
+			<input type="text" name="color" id="color" required /><br><br>
+
+			<input type="button" value="Add" onclick="addRow()" id="add"><br><br>
+		</form>
+
+		<h3>Inserted cats</h3>
+		<table id="table" border="0">
+		    <tr>
+		        <th>Name</th>
+		        <th>Breed</th>
+		        <th>Age</th>
+		        <th>Color</th>
+		    </tr>
+		</table>
+
+		<div class="footer">
+  			<p>2020 all right reserved. Development by Mohannad Hammouri</p>
+		</div>
+	</body>
+</html> 
